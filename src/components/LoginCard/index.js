@@ -5,9 +5,7 @@ import { CardDiv } from './style'
 const LoginCard = ({ children, title }) => {
   return (
     <CardDiv>
-      <Card title={title}>
-        {children}
-      </Card>
+      <Card title={title}>{children}</Card>
     </CardDiv>
   )
 }

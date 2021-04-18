@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const UserProfileDiv = styled.div`
-  border:1px solid #C1C1C1;
+  border: 1px solid #c1c1c1;
   padding: 10px;
 `
 export const userStyle = { fontWeight: 'bold', fontSize: '200%' }

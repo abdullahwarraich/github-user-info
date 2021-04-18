@@ -11,4 +11,3 @@ export const repoStyle = {
   backgroundColor: '#FFFFFF',
   margin: '20px 20px 20px 20px'
 }
-

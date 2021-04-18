@@ -63,50 +63,49 @@ export const BarsBtnStyle = styled.span`
 `
 
 export const NavStyle = styled.div`
-.barsMenu {
-  float: right;
-  height: 32px;
-  padding: 6px;
-  margin-top: 8px;
-  display: none;
-  background: none;
-}
-
-.ant-drawer-body {
-  padding: 0;
-}
-
-.barsMenu>span {
-  display: block;
-}
-
-.ant-drawer-body .ant-menu-horizontal>.ant-menu-item,
-.ant-drawer-body .ant-menu-horizontal>.ant-menu-submenu {
-  display: inline-block;
-  width: 100%;
-}
-
-.ant-drawer-body .ant-menu-horizontal {
-  border-bottom: none;
-}
-
-.ant-drawer-body .ant-menu-horizontal>.ant-menu-item:hover {
-  border-bottom-color: transparent;
-}
-
-@media (max-width: 767px) {
   .barsMenu {
-    display: inline-block;
-  }
-
-  .leftMenu{
+    float: right;
+    height: 32px;
+    padding: 6px;
+    margin-top: 8px;
     display: none;
+    background: none;
   }
 
-  .menuCon .ant-menu-item,
-  .menuCon .ant-menu-submenu-title {
-    padding: 1px 20px;
+  .ant-drawer-body {
+    padding: 0;
   }
 
-}
+  .barsMenu > span {
+    display: block;
+  }
+
+  .ant-drawer-body .ant-menu-horizontal > .ant-menu-item,
+  .ant-drawer-body .ant-menu-horizontal > .ant-menu-submenu {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .ant-drawer-body .ant-menu-horizontal {
+    border-bottom: none;
+  }
+
+  .ant-drawer-body .ant-menu-horizontal > .ant-menu-item:hover {
+    border-bottom-color: transparent;
+  }
+
+  @media (max-width: 767px) {
+    .barsMenu {
+      display: inline-block;
+    }
+
+    .leftMenu {
+      display: none;
+    }
+
+    .menuCon .ant-menu-item,
+    .menuCon .ant-menu-submenu-title {
+      padding: 1px 20px;
+    }
+  }
 `
