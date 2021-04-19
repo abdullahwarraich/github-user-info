@@ -1,10 +1,20 @@
-import { render, screen } from '@testing-library/react'
+import { render } from '@testing-library/react'
 import AntAvatar from './index'
 
 describe('Avatar', () => {
-  test('Avatar must have image = "image.png"', () => {
-    render(<AntAvatar image='image.png' />)
-    const Avatar = screen.getByRole('img')
-    expect(Avatar).toHaveAttribute('src', 'image.png')
+  let avatarRender
+  let image
+
+  beforeEach(() => {
+    image = 'imagePath'
+  })
+
+  afterEach(() => {
+    avatarRender.unmount()
+  })
+
+  test('should render avatar', async () => {
+    avatarRender = render(<AntAvatar image={image} />)
+    expect(avatarRender).toMatchSnapshot()
   })
 })

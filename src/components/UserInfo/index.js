@@ -22,25 +22,25 @@ const UserInfo = ({ userAllDetails }) => {
       <AntAvatar image={avatar_url} />
       <Descriptions layout='horizontal'>
         {name && (
-          <Descriptions.Item span={6} contentStyle={userStyle}>
+          <Descriptions.Item contentStyle={userStyle} span={6}>
             {name}
           </Descriptions.Item>
         )}
         {login && (
-          <Descriptions.Item span={6} contentStyle={loginStyle}>
+          <Descriptions.Item contentStyle={loginStyle} span={6}>
             {login}
           </Descriptions.Item>
         )}
         {email && <Descriptions.Item span={6}>{email}</Descriptions.Item>}
         {bio && (
-          <Descriptions.Item span={6} contentStyle={bioStyle}>
+          <Descriptions.Item contentStyle={bioStyle} span={6}>
             {bio}
           </Descriptions.Item>
         )}
         {(followers || following) && (
           <Descriptions.Item span={6}>
-            {followers} {followers === 1 ? 'follower' : 'followers'} {following}{' '}
-            {'following'}
+            {followers} {followers === 1 ? 'follower' : 'followers'} {following}
+            {' following'}
           </Descriptions.Item>
         )}
         {public_repos && (

@@ -1,10 +1,15 @@
-import { render, screen } from '@testing-library/react'
+import { render } from '@testing-library/react'
 import AppFooter from './index'
 
-test('renders app footer', () => {
-  render(<AppFooter />)
-  const linkElement = screen.getByText(
-    /Github User Info ©2021 Created by Abdullah Warraich/i
-  )
-  expect(linkElement).toBeInTheDocument()
+describe('AppFooter', () => {
+  let appFooterRender
+
+  afterEach(() => {
+    appFooterRender.unmount()
+  })
+
+  test('should render app footer', async () => {
+    appFooterRender = render(<AppFooter />)
+    expect(appFooterRender).toMatchSnapshot()
+  })
 })

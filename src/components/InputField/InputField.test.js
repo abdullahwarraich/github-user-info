@@ -1,13 +1,33 @@
-import { render, fireEvent } from '@testing-library/react'
+import { render } from '@testing-library/react'
 import InputField from './index'
 
-const inputMock = jest.fn()
+describe('Input', () => {
+  let testRender
+  let allowClear
+  let inputOnChange
+  let inputValue
+  let inputPlaceholder
 
-test('input field component', async () => {
-  const container = render(<InputField inputPlaceholder='placeholder' />)
-  const input = container.getByPlaceholderText('placeholder')
-  await fireEvent.change(input, { target: { value: 'value' } })
-  await expect(input.value).toBe('value')
-  expect(input).toBeInTheDocument()
-  await expect(inputMock.mock.calls).toHaveLength(0)
+  beforeEach(() => {
+    allowClear = true
+    inputOnChange = jest.fn(() => a => a)
+    inputValue = 'input value'
+    inputPlaceholder = 'input place holder'
+  })
+
+  afterEach(() => {
+    testRender.unmount()
+  })
+
+  test('should render Input', async () => {
+    testRender = render(
+      <InputField
+        allowClear={allowClear}
+        inputPlaceholder={inputPlaceholder}
+        inputValue={inputValue}
+        inputOnChange={inputOnChange}
+      />
+    )
+    expect(testRender).toMatchSnapshot()
+  })
 })

@@ -1,0 +1,490 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserInfo should render user info 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-bdvvaa cuhKqU"
+      >
+        <span
+          class="ant-avatar ant-avatar-circle ant-avatar-image"
+        >
+          <img
+            src="/avatarUrl"
+          />
+        </span>
+        <div
+          class="ant-descriptions"
+        >
+          <div
+            class="ant-descriptions-view"
+          >
+            <table>
+              <tbody>
+                <tr
+                  class="ant-descriptions-row"
+                >
+                  <td
+                    class="ant-descriptions-item"
+                    colspan="3"
+                  >
+                    <div
+                      class="ant-descriptions-item-container"
+                    >
+                      <span
+                        class="ant-descriptions-item-content"
+                        style="font-weight: bold; font-size: 200%;"
+                      >
+                        Github User Name
+                      </span>
+                    </div>
+                  </td>
+                </tr>
+                <tr
+                  class="ant-descriptions-row"
+                >
+                  <td
+                    class="ant-descriptions-item"
+                    colspan="3"
+                  >
+                    <div
+                      class="ant-descriptions-item-container"
+                    >
+                      <span
+                        class="ant-descriptions-item-content"
+                        style="font-size: 150%;"
+                      >
+                        githubUser
+                      </span>
+                    </div>
+                  </td>
+                </tr>
+                <tr
+                  class="ant-descriptions-row"
+                >
+                  <td
+                    class="ant-descriptions-item"
+                    colspan="3"
+                  >
+                    <div
+                      class="ant-descriptions-item-container"
+                    >
+                      <span
+                        class="ant-descriptions-item-content"
+                      >
+                        abdullahwarraich678@gmail.com
+                      </span>
+                    </div>
+                  </td>
+                </tr>
+                <tr
+                  class="ant-descriptions-row"
+                >
+                  <td
+                    class="ant-descriptions-item"
+                    colspan="3"
+                  >
+                    <div
+                      class="ant-descriptions-item-container"
+                    >
+                      <span
+                        class="ant-descriptions-item-content"
+                        style="font-weight: bold; font-size: 150%;"
+                      >
+                        Full Stack Engineer
+                      </span>
+                    </div>
+                  </td>
+                </tr>
+                <tr
+                  class="ant-descriptions-row"
+                >
+                  <td
+                    class="ant-descriptions-item"
+                    colspan="3"
+                  >
+                    <div
+                      class="ant-descriptions-item-container"
+                    >
+                      <span
+                        class="ant-descriptions-item-content"
+                      >
+                        5
+                         
+                        followers
+                         
+                        100
+                         following
+                      </span>
+                    </div>
+                  </td>
+                </tr>
+                <tr
+                  class="ant-descriptions-row"
+                >
+                  <td
+                    class="ant-descriptions-item"
+                    colspan="3"
+                  >
+                    <div
+                      class="ant-descriptions-item-container"
+                    >
+                      <span
+                        class="ant-descriptions-item-label"
+                      >
+                        Public Repos
+                      </span>
+                      <span
+                        class="ant-descriptions-item-content"
+                      >
+                        10
+                      </span>
+                    </div>
+                  </td>
+                </tr>
+                <tr
+                  class="ant-descriptions-row"
+                >
+                  <td
+                    class="ant-descriptions-item"
+                    colspan="3"
+                  >
+                    <div
+                      class="ant-descriptions-item-container"
+                    >
+                      <span
+                        class="ant-descriptions-item-label"
+                      >
+                        Public Gists
+                      </span>
+                      <span
+                        class="ant-descriptions-item-content"
+                      >
+                        15
+                      </span>
+                    </div>
+                  </td>
+                </tr>
+                <tr
+                  class="ant-descriptions-row"
+                >
+                  <td
+                    class="ant-descriptions-item"
+                    colspan="3"
+                  >
+                    <div
+                      class="ant-descriptions-item-container"
+                    >
+                      <span
+                        class="ant-descriptions-item-label"
+                      >
+                        Company
+                      </span>
+                      <span
+                        class="ant-descriptions-item-content"
+                      >
+                        Google
+                      </span>
+                    </div>
+                  </td>
+                </tr>
+                <tr
+                  class="ant-descriptions-row"
+                >
+                  <td
+                    class="ant-descriptions-item"
+                    colspan="3"
+                  >
+                    <div
+                      class="ant-descriptions-item-container"
+                    >
+                      <span
+                        class="ant-descriptions-item-label"
+                      >
+                        Location
+                      </span>
+                      <span
+                        class="ant-descriptions-item-content"
+                      >
+                        Berlin
+                      </span>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-bdvvaa cuhKqU"
+    >
+      <span
+        class="ant-avatar ant-avatar-circle ant-avatar-image"
+      >
+        <img
+          src="/avatarUrl"
+        />
+      </span>
+      <div
+        class="ant-descriptions"
+      >
+        <div
+          class="ant-descriptions-view"
+        >
+          <table>
+            <tbody>
+              <tr
+                class="ant-descriptions-row"
+              >
+                <td
+                  class="ant-descriptions-item"
+                  colspan="3"
+                >
+                  <div
+                    class="ant-descriptions-item-container"
+                  >
+                    <span
+                      class="ant-descriptions-item-content"
+                      style="font-weight: bold; font-size: 200%;"
+                    >
+                      Github User Name
+                    </span>
+                  </div>
+                </td>
+              </tr>
+              <tr
+                class="ant-descriptions-row"
+              >
+                <td
+                  class="ant-descriptions-item"
+                  colspan="3"
+                >
+                  <div
+                    class="ant-descriptions-item-container"
+                  >
+                    <span
+                      class="ant-descriptions-item-content"
+                      style="font-size: 150%;"
+                    >
+                      githubUser
+                    </span>
+                  </div>
+                </td>
+              </tr>
+              <tr
+                class="ant-descriptions-row"
+              >
+                <td
+                  class="ant-descriptions-item"
+                  colspan="3"
+                >
+                  <div
+                    class="ant-descriptions-item-container"
+                  >
+                    <span
+                      class="ant-descriptions-item-content"
+                    >
+                      abdullahwarraich678@gmail.com
+                    </span>
+                  </div>
+                </td>
+              </tr>
+              <tr
+                class="ant-descriptions-row"
+              >
+                <td
+                  class="ant-descriptions-item"
+                  colspan="3"
+                >
+                  <div
+                    class="ant-descriptions-item-container"
+                  >
+                    <span
+                      class="ant-descriptions-item-content"
+                      style="font-weight: bold; font-size: 150%;"
+                    >
+                      Full Stack Engineer
+                    </span>
+                  </div>
+                </td>
+              </tr>
+              <tr
+                class="ant-descriptions-row"
+              >
+                <td
+                  class="ant-descriptions-item"
+                  colspan="3"
+                >
+                  <div
+                    class="ant-descriptions-item-container"
+                  >
+                    <span
+                      class="ant-descriptions-item-content"
+                    >
+                      5
+                       
+                      followers
+                       
+                      100
+                       following
+                    </span>
+                  </div>
+                </td>
+              </tr>
+              <tr
+                class="ant-descriptions-row"
+              >
+                <td
+                  class="ant-descriptions-item"
+                  colspan="3"
+                >
+                  <div
+                    class="ant-descriptions-item-container"
+                  >
+                    <span
+                      class="ant-descriptions-item-label"
+                    >
+                      Public Repos
+                    </span>
+                    <span
+                      class="ant-descriptions-item-content"
+                    >
+                      10
+                    </span>
+                  </div>
+                </td>
+              </tr>
+              <tr
+                class="ant-descriptions-row"
+              >
+                <td
+                  class="ant-descriptions-item"
+                  colspan="3"
+                >
+                  <div
+                    class="ant-descriptions-item-container"
+                  >
+                    <span
+                      class="ant-descriptions-item-label"
+                    >
+                      Public Gists
+                    </span>
+                    <span
+                      class="ant-descriptions-item-content"
+                    >
+                      15
+                    </span>
+                  </div>
+                </td>
+              </tr>
+              <tr
+                class="ant-descriptions-row"
+              >
+                <td
+                  class="ant-descriptions-item"
+                  colspan="3"
+                >
+                  <div
+                    class="ant-descriptions-item-container"
+                  >
+                    <span
+                      class="ant-descriptions-item-label"
+                    >
+                      Company
+                    </span>
+                    <span
+                      class="ant-descriptions-item-content"
+                    >
+                      Google
+                    </span>
+                  </div>
+                </td>
+              </tr>
+              <tr
+                class="ant-descriptions-row"
+              >
+                <td
+                  class="ant-descriptions-item"
+                  colspan="3"
+                >
+                  <div
+                    class="ant-descriptions-item-container"
+                  >
+                    <span
+                      class="ant-descriptions-item-label"
+                    >
+                      Location
+                    </span>
+                    <span
+                      class="ant-descriptions-item-content"
+                    >
+                      Berlin
+                    </span>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
