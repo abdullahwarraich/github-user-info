@@ -14,9 +14,9 @@
 
 **Coding guidelines**
  1. React
-    As a general rule, the functional components with hooks are used
+    - As a general rule, the functional components with hooks are used
  2. Architecture
-    As a general rule, the app architecture is composed by pages, containers and components.
+    - As a general rule, the app architecture is composed by pages, containers and components.
     - Pages - are supposed to be very readable, so we try to make them just a set of high-level containers or components that showcase the layout of the page.
     - Containers - encapsulate all the logic regarding the state of the app, and data fetching. They then pass down the data and callbacks down to the component.
     - Components - should only be concerned with presentational logic.
