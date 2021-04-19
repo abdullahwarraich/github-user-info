@@ -25,5 +25,7 @@ describe('Button', () => {
     const button = screen.getByRole('button')
     await fireEvent.click(button)
     expect(button).toHaveTextContent('Button Clicked')
+    
+    expect(buttonRender).toMatchSnapshot()
   })
 })

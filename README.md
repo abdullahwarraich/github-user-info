@@ -9,10 +9,11 @@
 
 1. Clone the project.
 2. Run  ```yarn install``` or ```npm install``` root directory to install node dependencies.
-4. Run  ```yarn start``` or ```npm start``` to start dev server.
-5. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+3. Run  ```yarn start``` or ```npm start``` to start dev server.
+4. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+5. Used the following script for test cases ```yarn test``` or ```npm test```
 
-**Coding guidelines**
+**Implementation discription**
  1. React
     - As a general rule, the functional components with hooks are used
  2. Architecture
@@ -25,6 +26,13 @@
  5. [Redux Toolkit](https://redux-toolkit.js.org/) for state management
  6. [React Router Dom](https://reactrouter.com/) for routing of app
  7. [Prettier Standard](https://prettier.io/) for code formatting
+
+ **Attempted Optional Feature**
+   1. Error handling
+   2. Used Ant Design for UI
+   3. Simplistic mobile responsive UI
+   4. Added unit test in components' hierarchy. Didn't attempt integeration test due to time constraint
+   5. App deployed on Netlify
 
 ### Frontend is deployed using netlify 
 - https://gifted-engelbart-b601a9.netlify.app
