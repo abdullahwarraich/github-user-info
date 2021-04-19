@@ -1,11 +1,12 @@
 import React, { useEffect } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import { useHistory } from 'react-router-dom'
-import { Row, Col, Card } from 'antd'
+import { Row, Col } from 'antd'
 import UserInfo from '../../components/UserDetails'
 import AntAvatar from '../../components/Avatar'
 import Empty from '../../components/Empty'
-import { RepoName, repoStyle } from './style'
+import DiscriptionCard from '../../components/DiscriptionCard'
+import { RepoName } from './style'
 import { setUserOrgs } from '../../store/user'
 import { getUserOrgs } from '../../apis'
 
@@ -31,14 +32,14 @@ const Orgs = () => {
       </Col>
 
       <Col span={16} xs={24} md={16}>
-        <Row>
+        <Row justify='center'>
           {userOrgs && userOrgs.length ? (
             userOrgs.map(orgs => (
-              <Card key={orgs.id} style={repoStyle}>
+              <DiscriptionCard key={orgs.id}>
                 <AntAvatar image={orgs.avatar_url} />
                 <RepoName>{orgs.login}</RepoName>
                 <h4>{orgs.description}</h4>
-              </Card>
+              </DiscriptionCard>
             ))
           ) : (
             <Empty text='No organization found' />

@@ -10,4 +10,8 @@ export const CardDiv = styled.div`
   width: 100vw;
   height: 100vh;
   background: rgb(240, 240, 240);
+  .ant-card {
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px 5px #c2c2c2;
+  }
 `

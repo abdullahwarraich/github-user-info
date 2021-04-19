@@ -1,10 +1,11 @@
 import React, { useEffect } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import { useHistory } from 'react-router-dom'
-import { Row, Col, Card } from 'antd'
+import { Row, Col } from 'antd'
 import UserInfo from '../../components/UserDetails'
 import Empty from '../../components/Empty'
-import { RepoName, repoStyle } from './style'
+import DiscriptionCard from '../../components/DiscriptionCard'
+import { RepoName } from './style'
 import { setUserGists } from '../../store/user'
 import { getUserGist } from '../../apis'
 
@@ -30,10 +31,10 @@ const Gists = () => {
       </Col>
 
       <Col span={16} xs={24} md={16}>
-        <Row>
+        <Row justify='center'>
           {userGists && userGists.length ? (
             userGists.map(gist => (
-              <Card key={gist.id} style={repoStyle}>
+              <DiscriptionCard key={gist.id}>
                 <RepoName>{gist.description}</RepoName>
                 <a href={gist.html_url} target='_blank' rel='noreferrer'>
                   Open gist
@@ -41,7 +42,7 @@ const Gists = () => {
                 {Object.values(gist.files) && Object.values(gist.files)[0] && (
                   <h4>{Object.values(gist.files)[0].language}</h4>
                 )}
-              </Card>
+              </DiscriptionCard>
             ))
           ) : (
             <Empty text='No gist found' />

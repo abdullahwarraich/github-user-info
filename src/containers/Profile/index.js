@@ -1,10 +1,11 @@
 import React, { useEffect } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import { useHistory } from 'react-router-dom'
-import { Row, Col, Card } from 'antd'
+import { Row, Col } from 'antd'
 import UserInfo from '../../components/UserDetails'
 import Empty from '../../components/Empty'
-import { RepoName, repoStyle } from './style'
+import DiscriptionCard from '../../components/DiscriptionCard'
+import { RepoName } from './style'
 import { setUserRepos } from '../../store/user'
 import { getUserRepos } from '../../apis'
 
@@ -31,17 +32,17 @@ const Profile = () => {
       </Col>
 
       <Col span={16} xs={24} md={16}>
-        <Row>
+        <Row justify='center'>
           {userRepos && userRepos.length ? (
             userRepos.map(repo => (
-              <Card key={repo.id} style={repoStyle}>
+              <DiscriptionCard key={repo.id}>
                 <RepoName>{repo.name}</RepoName>
                 <p>{repo.description}</p>
                 <a href={repo.html_url} target='_blank' rel='noreferrer'>
                   Open repo
                 </a>
                 <h4>{repo.language}</h4>
-              </Card>
+              </DiscriptionCard>
             ))
           ) : (
             <Empty text='No repo found' />

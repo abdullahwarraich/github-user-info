@@ -1,10 +1,6 @@
 import React from 'react'
-import { EmptyScreen } from './style'
+import { Empty as AntdEmpty } from 'antd'
 
-const Empty = ({ text }) => (
-  <EmptyScreen>
-    <div>{text}</div>
-  </EmptyScreen>
-)
+const Empty = ({ text }) => <AntdEmpty description={text} />
 
 export default Empty
