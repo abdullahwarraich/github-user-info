@@ -1,5 +1,5 @@
 
-# Greple Frontend
+# Github user profile
 
 ### Prerequisites
 
