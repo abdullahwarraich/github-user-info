@@ -26,13 +26,7 @@
  5. [Redux Toolkit](https://redux-toolkit.js.org/) for state management
  6. [React Router Dom](https://reactrouter.com/) for routing of app
  7. [Prettier Standard](https://prettier.io/) for code formatting
-
- **Attempted Optional Feature**
-   1. Error handling
-   2. Used Ant Design for UI
-   3. Simplistic mobile responsive UI
-   4. Added unit test in components' hierarchy. Didn't attempt integeration test due to time constraint
-   5. App deployed on Netlify
+ 8. Deployed on Netlify
 
 ### Frontend is deployed using netlify 
 - https://gifted-engelbart-b601a9.netlify.app
